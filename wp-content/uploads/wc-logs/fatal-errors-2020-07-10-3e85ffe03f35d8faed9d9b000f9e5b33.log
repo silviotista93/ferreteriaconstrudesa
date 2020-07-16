@@ -1,0 +1,20 @@
+2020-07-10T03:41:26+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/wc-template-functions.php:3640
+Stack trace:
+#0 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/class-wp-hook.php(287): woocommerce_output_all_notices('')
+#1 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/mauriciogutierrez/Sites/ferreteria/wp-content/themes/woodmart/woocommerce/content-single-product.php(101): do_action('woodmart_before...')
+#4 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/template.php(725): require('/Users/mauricio...')
+#5 /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/Users/mauricio...', false)
+#6 /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/class- en /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/wc-template-functions.php en la línea 3640
+
+2020-07-10T12:07:07+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/wc-template-functions.php:3640
+Stack trace:
+#0 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/class-wp-hook.php(287): woocommerce_output_all_notices('')
+#1 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/mauriciogutierrez/Sites/ferreteria/wp-content/themes/woodmart/woocommerce/content-single-product.php(101): do_action('woodmart_before...')
+#4 /Users/mauriciogutierrez/Sites/ferreteria/wp-includes/template.php(725): require('/Users/mauricio...')
+#5 /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/Users/mauricio...', false)
+#6 /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/class- en /Users/mauriciogutierrez/Sites/ferreteria/wp-content/plugins/woocommerce/includes/wc-template-functions.php en la línea 3640
+
